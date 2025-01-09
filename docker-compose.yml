@@ -5,7 +5,7 @@ services:
   wordpress:
     build: .
     restart: always
-       environment:
+    environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: exampleuser
       WORDPRESS_DB_PASSWORD: examplepass
